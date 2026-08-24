@@ -96,7 +96,7 @@ Crisp Diagrams is free. No trial, no seat limit, no feature gate.
 - [Troubleshooting](guides/troubleshooting)
 - [Privacy policy](privacy)
 - [End user terms](terms)
-- [Support — open an issue](https://github.com/Admin3007/crisp-diagrams-docs/issues)
+- [Support](support) — how to get help, and the response targets
 
 ---
 
@@ -108,3 +108,4 @@ Crisp Diagrams is free. No trial, no seat limit, no feature gate.
 - [Where are the diagram templates?](templates) — a starting point for all nineteen types
 - [My diagram is not rendering](guides/troubleshooting) — symptom index and fixes
 - [Security and vulnerability reporting](security) — posture, and how to report an issue
+- [How do I get help?](support) — where to ask, what to include, and what happens next
