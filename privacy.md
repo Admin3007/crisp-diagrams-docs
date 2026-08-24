@@ -80,3 +80,11 @@ require sending data anywhere will be **opt-in and clearly disclosed**, never si
 
 Questions about this policy: open an issue on the support page listed on the app's Marketplace
 listing.
+
+## Third-party code
+
+Crisp Diagrams bundles its rendering libraries into the app rather than loading
+them from a CDN. That is what makes zero data egress possible, and it means their
+licences ship with the app. The complete list of bundled packages, versions and
+licence texts is published at
+[Third-party notices](third-party-notices).
