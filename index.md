@@ -107,3 +107,4 @@ Crisp Diagrams is free. No trial, no seat limit, no feature gate.
 - [How do I move from PlantUML?](plantuml-to-mermaid) — syntax mapping, and the cases where you should stay put
 - [Where are the diagram templates?](templates) — a starting point for all nineteen types
 - [My diagram is not rendering](guides/troubleshooting) — symptom index and fixes
+- [Security and vulnerability reporting](security) — posture, and how to report an issue

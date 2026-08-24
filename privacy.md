@@ -88,3 +88,8 @@ them from a CDN. That is what makes zero data egress possible, and it means thei
 licences ship with the app. The complete list of bundled packages, versions and
 licence texts is published at
 [Third-party notices](third-party-notices).
+
+## Security
+
+The app's security posture, and how to report a vulnerability, are documented at
+[Security](security).
