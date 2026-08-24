@@ -1,8 +1,24 @@
 ---
 title: Troubleshooting
+description: Mermaid diagrams not rendering in Confluence? Blank macro, syntax errors, missing labels, wrong colours — causes and fixes.
 ---
 
 # Troubleshooting
+
+Mermaid diagram not rendering in Confluence, or rendering wrong? Find the symptom below.
+
+## Start here
+
+| What you see | Most likely cause |
+|---|---|
+| Nothing at all, blank space | [The macro never rendered](#the-diagram-didnt-appear-at-all) |
+| Red panel naming a line | [A syntax error — the caret shows the character](#syntax-error-with-a-line-number) |
+| Boxes but no words | [Labels lost on export](#export-produced-an-image-with-no-text) |
+| Diagram far too small | [Small diagrams are not upscaled](#diagram-is-smaller-than-i-expected) |
+| Blurry when you zoom | [That is a different app — see why](../why-diagrams-blur) |
+| A white box on a dark page | [Theme handling](#dark-mode-looks-wrong) |
+| Your colours ignored | [classDef and style](#my-colours-arent-applying) |
+| Asked to create an account | Not this app — [see why that happens](../no-account-required) |
 
 ---
 
@@ -132,3 +148,68 @@ Open an issue at
 [github.com/Admin3007/crisp-diagrams-docs/issues](https://github.com/Admin3007/crisp-diagrams-docs/issues).
 
 Include the diagram source that reproduces it — that is almost always enough to diagnose it.
+
+---
+
+## It worked yesterday and now it doesn't
+
+Two causes account for almost all of these.
+
+**The page was restored to an older version.** The diagram source lives in the macro on
+the page, so it is versioned with the page. Reverting the page reverts the diagram. Check
+page history.
+
+**Someone edited the source and saved a broken diagram.** The editor will not let you save
+while the badge reads *Syntax error*, but a diagram that parses can still be wrong — a
+deleted node leaves the arrows pointing nowhere. Page history will show who changed what.
+
+---
+
+## The diagram takes a few seconds the first time
+
+Expected, and only on the first render in a browser session. The rendering engine is
+bundled into the app rather than fetched from a CDN, so the first diagram on a page pays
+for loading it. Subsequent diagrams, and every later page, are near-instant.
+
+That trade is deliberate: bundling is what makes zero data egress possible. A CDN would be
+marginally faster once and would mean a request leaving your Atlassian domain every time.
+
+---
+
+## A very large diagram is slow
+
+Layout time grows faster than node count — that is Mermaid's graph layout, not the
+rendering. Rough figures on a typical laptop:
+
+| Nodes | Time to draw |
+|---|---|
+| 40 | around 0.2 s |
+| 120 | around 0.6 s |
+| 300 | around 1.8 s |
+
+Around 300 nodes a reader starts to wonder whether the page is broken. If you are there,
+the diagram is also probably too dense to read — splitting it into a context diagram plus
+two detail diagrams is usually better documentation as well as faster.
+
+Sequence diagrams are the exception: they need no graph layout, so 120 messages still
+draws in about 0.2 s.
+
+---
+
+## Can I drag the boxes around?
+
+No, and deliberately.
+
+The diagram source is the single source of truth. If boxes could be dragged, positions
+would have to be stored separately — and the moment you added a node, the layout would
+re-run and every saved position would refer to a diagram that no longer exists.
+
+To influence layout, change the text:
+
+- **Direction:** `flowchart LR` for left-to-right, `TD` for top-down. This fixes most
+  "wrong shape" complaints on its own.
+- **Grouping:** `subgraph` keeps related nodes together.
+- **Spacing:** put `%%{init: {'flowchart': {'nodeSpacing': 80, 'rankSpacing': 80}}}%%` on
+  the first line.
+- **Ordering:** an invisible link, `A ~~~ B`, forces two nodes into the same rank without
+  drawing anything.

@@ -7,7 +7,7 @@ title: Crisp Diagrams
 **Mermaid diagrams that stay sharp.** True SVG, full page width, live preview while you type.
 No account. Nothing leaves Atlassian.
 
-[Get started](guides/getting-started) · [Real-world examples](examples/) ·
+[Get started](guides/getting-started) · [Templates](templates) · [Real-world examples](examples/) ·
 [Styling](guides/styling) · [Troubleshooting](guides/troubleshooting)
 
 ---
@@ -97,3 +97,13 @@ Crisp Diagrams is free. No trial, no seat limit, no feature gate.
 - [Privacy policy](privacy)
 - [End user terms](terms)
 - [Support — open an issue](https://github.com/Admin3007/crisp-diagrams-docs/issues)
+
+---
+
+## Common questions
+
+- [Why do my Confluence diagrams go blurry?](why-diagrams-blur) — what raster storage costs you, and how to tell which kind you have
+- [Can I use Mermaid without a third-party account?](no-account-required) — why some apps demand a sign-up, and how to verify one does not
+- [How do I move from PlantUML?](plantuml-to-mermaid) — syntax mapping, and the cases where you should stay put
+- [Where are the diagram templates?](templates) — a starting point for all nineteen types
+- [My diagram is not rendering](guides/troubleshooting) — symptom index and fixes
