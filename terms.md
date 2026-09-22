@@ -1,13 +1,13 @@
 # End User Terms — Crisp Diagrams for Confluence
 
-**Last updated:** 24 August 2026
+**Last updated:** 22 September 2026
 
 These terms govern your use of the Crisp Diagrams for Confluence app ("the App"), supplied through
 the Atlassian Marketplace.
 
-> **Not legal advice.** This is a plain-language template covering what the Atlassian Marketplace
-> requires of a free app. If the App later charges money, handles customer data, or is sold to
-> enterprise customers with procurement review, have a qualified lawyer review it first.
+> **Not legal advice.** This is a plain-language document, not a lawyer-drafted agreement. The App
+> is now sold through the Atlassian Marketplace, so a review by a qualified lawyer is worth doing —
+> particularly before selling to enterprise customers with procurement review.
 
 ---
 
@@ -43,11 +43,17 @@ Availability is therefore subject to Atlassian's own uptime and platform decisio
 Features may be added, changed or removed. If a change would materially reduce what the App does,
 reasonable notice will be given via the Marketplace listing.
 
-## 6. Free of charge
+## 6. Pricing and billing
 
-The App is currently supplied free of charge. If a paid tier is introduced in future, existing
-functionality available to you at that time will not be removed without notice, and you will not be
-charged without opting in.
+The App is supplied **free of charge to Atlassian Cloud sites of 10 users or fewer**. Above that it
+is a paid subscription, preceded by a free trial.
+
+**Atlassian is the merchant of record.** Billing, trials, renewals, tax and refunds are handled by
+Atlassian under the Atlassian Marketplace Terms of Use, not by the developer. Current prices are
+shown on the App's Marketplace listing.
+
+Rendering is not licence-gated. If a subscription lapses, diagrams already on your pages continue
+to render, zoom and export. A current licence is required to create or edit a diagram.
 
 ## 7. Warranty disclaimer
 
@@ -61,8 +67,9 @@ diagrams will be free of visual or layout defects.
 ## 8. Limitation of liability
 
 To the maximum extent permitted by applicable law, the developer's total aggregate liability
-arising out of or relating to the App is limited to the amount you paid for it — which, while the
-App is free, is **zero**.
+arising out of or relating to the App is limited to the total fees you paid for the App through the
+Atlassian Marketplace in the twelve months before the claim arose. Where the App was supplied free
+of charge, that amount is **zero**.
 
 The developer is not liable for indirect, incidental, special, consequential or punitive damages,
 or for loss of data, profits, revenue or business, however caused.
@@ -71,8 +78,9 @@ Nothing in these terms excludes liability that cannot lawfully be excluded.
 
 ## 9. Support
 
-Support is provided on a best-effort basis through the support channel listed on the Marketplace
-listing. No specific response time is guaranteed while the App is free.
+Support is provided through the support channel listed on the Marketplace listing. The response
+targets that are actually committed to — first response, diagnosis, and security fixes — are
+published at [Support](support). They apply to free and paid sites alike.
 
 ## 10. Termination
 

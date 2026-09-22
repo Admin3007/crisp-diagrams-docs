@@ -82,9 +82,18 @@ renders, zooms and exports, because all of it runs in your browser.
 
 ---
 
-## Free
+## Pricing
 
-Crisp Diagrams is free. No trial, no seat limit, no feature gate.
+**Free for sites of 10 users or fewer.** Atlassian applies that tier automatically — there is
+nothing to claim and nothing to cancel.
+
+Above 10 users it is a paid subscription with a **30-day free trial**. Atlassian bills it, not us;
+current per-user pricing is on the
+[Marketplace listing](https://marketplace.atlassian.com/apps/331634655).
+
+**Diagrams always render.** A licence is what lets people *create and edit* them. If a subscription
+lapses, every diagram already on your pages keeps rendering, zooming and exporting exactly as
+before — a page published last year does not break because a card expired.
 
 ---
 
