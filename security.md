@@ -44,7 +44,7 @@ The manifest declares no `remotes` and no `external` permissions, which Forge en
 rather than merely records. The Mermaid rendering engine is bundled into the app rather
 than fetched from a CDN.
 
-It carries Atlassian's **Runs on Atlassian** badge, granted only to apps that use
+It qualifies for Atlassian's **Runs on Atlassian** programme, granted only to apps that use
 exclusively Atlassian-hosted compute and storage and do not egress data.
 
 You can confirm both claims yourself: open your browser's Network tab and reload a page
