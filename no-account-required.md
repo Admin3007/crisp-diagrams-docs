@@ -47,9 +47,8 @@ That is how Crisp Diagrams works:
 - **No third party.** The Mermaid rendering engine is bundled into the app rather than
   fetched from a CDN, so there is no external service in the path at all.
 - **No data leaves Atlassian.** The app requests **no Atlassian API scopes** and makes no
-  external network calls. It qualifies for Atlassian's **Runs on Atlassian**
-  programme, granted only to apps that use exclusively Atlassian-hosted compute and storage
-  and do not egress data.
+  external network calls. It carries Atlassian's **Runs on Atlassian** badge, granted only
+  to apps that use exclusively Atlassian-hosted compute and storage and do not egress data.
 
 ---
 

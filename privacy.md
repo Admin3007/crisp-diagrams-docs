@@ -29,8 +29,8 @@ That is the complete list.
 
 ## Runs on Atlassian
 
-Crisp Diagrams qualifies for Atlassian's [**Runs on Atlassian**](https://www.atlassian.com/blog/developer/runs-on-atlassian-gives-partners-a-new-way-to-showcase-strict-data-protections)
-programme. Atlassian grants this only to apps that:
+Crisp Diagrams carries Atlassian's [**Runs on Atlassian**](https://www.atlassian.com/blog/developer/runs-on-atlassian-gives-partners-a-new-way-to-showcase-strict-data-protections)
+badge. Atlassian grants this only to apps that:
 
 - use exclusively Atlassian-hosted compute and storage,
 - support the same data residency as the host product, and

@@ -58,9 +58,9 @@ Crisp doesn't. Install it and it works, for everyone, immediately.
 
 ## Your data never leaves Atlassian
 
-Crisp qualifies for Atlassian's **Runs on Atlassian** programme, which Atlassian grants only to
-apps that use exclusively Atlassian-hosted compute and storage and **do not egress data**. The
-check is run by Atlassian against the build that ships, not self-declared.
+Crisp carries Atlassian's **Runs on Atlassian** badge. Atlassian grants it only to apps that use
+exclusively Atlassian-hosted compute and storage and **do not egress data**. It is verified by
+Atlassian, not self-declared.
 
 Concretely:
 
