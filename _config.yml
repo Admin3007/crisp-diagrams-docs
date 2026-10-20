@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 title: Crisp Diagrams
 description: Mermaid diagrams for Confluence — true SVG, zoomable, no account required.
+plugins:
+  - jekyll-sitemap

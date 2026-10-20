@@ -111,6 +111,7 @@ before — a page published last year does not break because a card expired.
 
 ## Common questions
 
+- [How do I use Mermaid in Confluence Cloud?](mermaid-in-confluence-cloud) — every option compared: images, the free Labs viewer, Marketplace apps
 - [Why do my Confluence diagrams go blurry?](why-diagrams-blur) — what raster storage costs you, and how to tell which kind you have
 - [Can I use Mermaid without a third-party account?](no-account-required) — why some apps demand a sign-up, and how to verify one does not
 - [How do I move from PlantUML?](plantuml-to-mermaid) — syntax mapping, and the cases where you should stay put
