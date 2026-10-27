@@ -10,9 +10,6 @@ description: How to get help with Crisp Mermaid Diagrams for Confluence, what th
 **Email [support@decisionscalc.com](mailto:support@decisionscalc.com)**: bugs, questions and
 feature requests all reach the developer directly. You get a reply from a person, not a ticket bot.
 
-Prefer a public thread? The [issue tracker](https://github.com/Admin3007/crisp-diagrams-docs/issues) works too, and shows what has
-already been reported.
-
 Read [Troubleshooting](guides/troubleshooting) first. It has a symptom index and covers the
 common cases, including diagrams that will not render and syntax errors that are hard to read.
 

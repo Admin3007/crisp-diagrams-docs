@@ -98,5 +98,4 @@ their licences and their vulnerabilities are ours to carry.
 ## Reporting something that is not a vulnerability
 
 For bugs, questions and feature requests, email
-[support@decisionscalc.com](mailto:support@decisionscalc.com) (or use the public
-[issue tracker](https://github.com/Admin3007/crisp-diagrams-docs/issues)). See [Troubleshooting](guides/troubleshooting) first — it covers the common cases.
+[support@decisionscalc.com](mailto:support@decisionscalc.com). See [Troubleshooting](guides/troubleshooting) first — it covers the common cases.
