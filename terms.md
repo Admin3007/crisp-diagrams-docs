@@ -1,13 +1,10 @@
 # End User Terms — Crisp Diagrams for Confluence
 
-**Last updated:** 22 September 2026
+**Last updated:** 27 October 2026
 
-These terms govern your use of the Crisp Diagrams for Confluence app ("the App"), supplied through
-the Atlassian Marketplace.
+These terms govern your use of the Crisp Diagrams for Confluence app ("the App"), supplied by Akash Randive,
+trading as DecisionsCalc ("we"), through the Atlassian Marketplace.
 
-> **Not legal advice.** This is a plain-language document, not a lawyer-drafted agreement. The App
-> is now sold through the Atlassian Marketplace, so a review by a qualified lawyer is worth doing —
-> particularly before selling to enterprise customers with procurement review.
 
 ---
 
@@ -101,4 +98,4 @@ noted on the Marketplace listing. Continued use after an update constitutes acce
 
 ## 13. Contact
 
-Via the support channel listed on the App's Atlassian Marketplace listing.
+Akash Randive, trading as DecisionsCalc: [support@decisionscalc.com](mailto:support@decisionscalc.com).

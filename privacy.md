@@ -78,8 +78,8 @@ require sending data anywhere will be **opt-in and clearly disclosed**, never si
 
 ## Contact
 
-Questions about this policy: open an issue on the support page listed on the app's Marketplace
-listing.
+Crisp Mermaid Diagrams is published by Akash Randive, trading as DecisionsCalc. Questions about
+this policy: [support@decisionscalc.com](mailto:support@decisionscalc.com).
 
 ## Third-party code
 

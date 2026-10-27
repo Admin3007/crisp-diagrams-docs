@@ -7,11 +7,8 @@ description: Security posture and vulnerability disclosure policy for Crisp Diag
 
 ## Reporting a vulnerability
 
-Open a report at
-[github.com/Admin3007/crisp-diagrams-docs/issues](https://github.com/Admin3007/crisp-diagrams-docs/issues).
-
-If the issue would put users at risk once public, mark it clearly at the top and keep the
-detail minimal — a private channel will be arranged before you send anything further.
+Email **[security@decisionscalc.com](mailto:security@decisionscalc.com)**. Reports are private
+and go straight to the developer. Please do not post exploitable detail in public.
 
 **What to expect:**
 
@@ -22,8 +19,8 @@ detail minimal — a private channel will be arranged before you send anything f
 | Fix for a critical or high issue | Per Atlassian's [security bug fix policy](https://www.atlassian.com/trust/security/bug-fix-policy) |
 | Public disclosure | After a fix ships, credited unless you prefer otherwise |
 
-Reports made in good faith will not be pursued. There is no bounty — this is a one-person
-project — but every report will be answered.
+Reports made in good faith will not be pursued. There is no bounty, but every report will be
+answered.
 
 ---
 
@@ -100,6 +97,6 @@ their licences and their vulnerabilities are ours to carry.
 
 ## Reporting something that is not a vulnerability
 
-For bugs, questions and feature requests, the same
-[issue tracker](https://github.com/Admin3007/crisp-diagrams-docs/issues) is the right
-place. See [Troubleshooting](guides/troubleshooting) first — it covers the common cases.
+For bugs, questions and feature requests, email
+[support@decisionscalc.com](mailto:support@decisionscalc.com) (or use the public
+[issue tracker](https://github.com/Admin3007/crisp-diagrams-docs/issues)). See [Troubleshooting](guides/troubleshooting) first — it covers the common cases.

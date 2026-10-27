@@ -145,7 +145,7 @@ That is also how you can verify the privacy claim yourself — see [Privacy](../
 ## Still stuck?
 
 Open an issue at
-[github.com/Admin3007/crisp-diagrams-docs/issues](https://github.com/Admin3007/crisp-diagrams-docs/issues).
+[support@decisionscalc.com](mailto:support@decisionscalc.com), or the public [issue tracker](https://github.com/Admin3007/crisp-diagrams-docs/issues).
 
 Include the diagram source that reproduces it — that is almost always enough to diagnose it.
 

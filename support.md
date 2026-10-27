@@ -7,15 +7,17 @@ description: How to get help with Crisp Mermaid Diagrams for Confluence, what th
 
 ## Where to ask
 
-**[Open an issue](https://github.com/Admin3007/crisp-diagrams-docs/issues)** — bugs, questions
-and feature requests all go to the same tracker. It is public, so you can see what has already
-been reported and whether a fix is on the way.
+**Email [support@decisionscalc.com](mailto:support@decisionscalc.com)**: bugs, questions and
+feature requests all reach the developer directly. You get a reply from a person, not a ticket bot.
+
+Prefer a public thread? The [issue tracker](https://github.com/Admin3007/crisp-diagrams-docs/issues) works too, and shows what has
+already been reported.
 
 Read [Troubleshooting](guides/troubleshooting) first. It has a symptom index and covers the
 common cases, including diagrams that will not render and syntax errors that are hard to read.
 
-For a security vulnerability, follow [Security](security) instead — do not put exploitable
-detail in a public issue.
+For a security vulnerability, email [security@decisionscalc.com](mailto:security@decisionscalc.com)
+(see [Security](security)) rather than posting details anywhere public.
 
 ---
 
@@ -28,11 +30,11 @@ detail in a public issue.
 | Fix for a rendering bug | Next release |
 | Fix for a critical or high security issue | Per Atlassian's [security bug fix policy](https://www.atlassian.com/trust/security/bug-fix-policy) |
 
-**Business days are Monday to Friday, IST (UTC+05:30).** The tracker accepts reports at any
-hour; the clock starts on the next business day.
+**Business days are Monday to Friday, IST (UTC+05:30).** Reports are welcome at any hour; the
+clock starts on the next business day.
 
-This is a one-person project. There is no phone line and no 24-hour desk, and saying otherwise
-would be a promise that could not be kept. What is promised above is what will actually happen.
+Crisp is made by DecisionsCalc, a small independent software publisher. There is no phone line
+and no 24-hour desk, and saying otherwise would be a promise that could not be kept. What is promised above is what will actually happen.
 
 ---
 
@@ -47,7 +49,7 @@ would be a promise that could not be kept. What is promised above is what will a
 4. **Whether it renders elsewhere.** Paste the same source into the
    [Mermaid live editor](https://mermaid.live). If it fails there too, it is a Mermaid syntax
    issue rather than an app bug, and [Troubleshooting](guides/troubleshooting) will get you
-   there faster than an issue will.
+   there faster than a support request will.
 
 ---
 

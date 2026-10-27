@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+{% assign path = page.url | remove: ".html" %}
+<title>{{ page.title | default: site.title }} · moved to crisp.decisionscalc.com</title>
+<link rel="canonical" href="https://crisp.decisionscalc.com{{ path }}">
+<meta http-equiv="refresh" content="0; url=https://crisp.decisionscalc.com{{ path }}">
+<meta name="robots" content="noindex">
+</head>
+<body>
+<p>The Crisp Mermaid Diagrams docs now live at
+<a href="https://crisp.decisionscalc.com{{ path }}">crisp.decisionscalc.com{{ path }}</a>.</p>
+</body>
+</html>
