@@ -118,6 +118,7 @@ C4Context
   System_Ext(pay, "Payment provider", "Card capture")
   Rel(cust, shop, "Browses and orders", "HTTPS")
   Rel(shop, pay, "Captures payment", "REST")
+  UpdateRelStyle(cust, shop, $offsetX="-30")
 ```
 
 ## Gantt chart
@@ -126,6 +127,8 @@ C4Context
 gantt
   title Release plan
   dateFormat YYYY-MM-DD
+  axisFormat %b %d
+  tickInterval 2week
   section Build
     Engine        :a1, 2026-09-01, 20d
     Interface     :after a1, 12d

@@ -154,6 +154,7 @@ gantt
   title Q4 delivery
   dateFormat YYYY-MM-DD
   axisFormat %b %d
+  tickInterval 2week
   section Build
     Rendering engine   :done,    a1, 2026-09-01, 20d
     Editor + preview   :active,  a2, after a1, 14d
@@ -186,10 +187,15 @@ C4Context
   Rel(pay, psp, "Authorise / capture", "HTTPS")
   Rel(pay, ledger, "Posts journal entries", "Nightly")
   Rel(agent, pay, "Issues refunds")
+  UpdateRelStyle(agent, pay, $offsetX="40")
+  UpdateRelStyle(pay, ledger, $offsetX="60")
+  UpdateLayoutConfig($c4ShapeInRow="2", $c4BoundaryInRow="1")
 ```
 
 **Why it works:** C4 distinguishes people, internal systems and external systems, which is exactly
 the distinction a security reviewer cares about. `System_Ext` marks your trust boundary.
+`UpdateRelStyle` nudges a label off a box it would cover, and `UpdateLayoutConfig` keeps two boxes
+per row so the arrows stay short.
 
 ---
 
